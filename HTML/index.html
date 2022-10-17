@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFOS Car Rental Website</title>
+    <!-- link to external css -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- Navbar -->
+    <header>
+        <a href="index.html" class="logo"><img src="../images/jeep.png" alt=""></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ride.html">Ride</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+           
+        </ul>
+        <div class="header-btn">
+            <a href="sign-up.html" class="sign-up">Sign-Up</a>
+            <a href="login.html" class="sign-in">Sign-In</a>
+        </div>
+    </header>
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking for </span> <br> a car to rent?</h1>
+            <p style="text-justify: inter-word; text-align: justify;">Relax and take your computer or phone and lets us show you how through our website.   </p>
+                <img src="../images/workplace.jpg" alt="Workplace" usemap="#workmap" width="100" height="79">
+                <map name="workmap">
+                  <area shape="rect" coords="34,44,270,350" alt="Computer" href="login.html">
+                  <area shape="rect" coords="290,172,333,250" alt="Phone" href="sign-up.html">
+                  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="ride.html">
+                </map>
+                
+         
+           
+        </div>
+
+        <div class="form-container" >
+            <form >
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search"  placeholder="Search Locations">
+                </div>
+                <div class="input-box">
+                    <span>Pick-up Day</span>
+                <input type="date" >
+                </div>
+                <div class="input-box">
+                    <span>Return Day</span>
+                <input type="date" >
+                </div>
+             
+                    <input type="submit"  class="btn">
+              
+            </form>
+        </div>
+    </section>
+    <section class="newsletter">
+        <h2>Subscribe To Newsletter</h2>
+        <div class="box">
+            <input type="text"  placeholder="Enter Your EmailAddress Here">
+            <a href="#" class="btn">Subscribe</a>
+        </div>
+    </section>
+     <!-- Inline Style -->
+  <hr style="margin-top: 5px; background-color: rgb(0, 0, 0); height: 1px;">
+    <div class="copyright">
+        <p>&#169; UFOS All Rights Reserved.</p>
+        <address>
+            Created by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        </address>
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-tiktok"></i></a>
+        </div>
+    </div>
+
+    <!-- link to external javascript -->
+    <script src="../Scripts/scripts.js"></script>
+</body>
+</html>

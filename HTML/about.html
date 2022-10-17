@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFOS Car Rental Website</title>
+    <!-- link to external css -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <style>
+        .heading{
+            text-align: center;
+            margin-top: 5em;
+        }
+        .heading span{
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .heading h1{
+            font-size: 2em;
+        }
+        .about-container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin-top: 2em;
+            align-items: center;
+            gap: 1rem;
+            
+        }
+        .about-container .about-img img{
+            width: 100%;
+        }
+        .about-container .about-text span{
+            font-weight:500;
+            color: var(--main-color);
+         
+        }
+        .about-container .about-text p{
+            margin: 0.5rem 0 1.4rem;
+
+        }
+        .about-container .about-text .btn{
+            padding: 10px 20px;
+            background: #474fa0;
+            color: #fff;
+            border-radius: 0.5em;
+        }
+        .about-container .about-text .btn:hover{
+            background: var(--main-color);
+        }
+        
+    </style>
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+<header>
+    <a href="index.html" class="logo"><img src="../images/jeep.png" alt=""></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ride.html">Ride</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+       
+    </ul>
+    <div class="header-btn">
+        <a href="sign-up.html" class="sign-up">Sign-Up</a>
+        <a href="login.html" class="sign-in">Sign-In</a>
+    </div>
+</header>
+<!-- About Us -->
+<section class="about" id="about">
+    <div class="heading">
+        <span style="text-transform: uppercase; color: orange;">about us</span>
+        <h1>Enjoy Best Customer Experience</h1>
+    </div>
+    <div class="about-container">
+        <div class="about-img">
+            <img src="../images/about.png" alt="">
+        </div>
+        <div class="about-text">
+            <span style="text-transform: uppercase;">our company</span>
+            <p style="text-align: justify; text-justify: inter-word;"></p>
+                UFOS Rental offers rental deals at large airports like Norman Y. Mineta San Jose International Airport, Southwest Florida International Airport, Detroit Wayne County International, McCarran International Airport in Las Vegas and more! Cheap auto rental prices can also be found at smaller airport locations like Charleston International Airport and Portland International Jetport Airport as well. </p>
+            <p style="text-align: justify; text-justify: inter-word;">
+                You can also search major cities like New York City, Los Angeles and Chicago for the best value on rental vehicles. Quickly see results from the top car and auto rental companies at thousands of city and airport locations around the world. Find your perfect vehicle today and save money with AutoRentals. Need to find a rental near you? You can also search by zip code.
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">    
+                AutoRentals is ranked number one by SmarterTravel as The best car rental booking site in 2020 and provides excellent pricing on a wide range of vehicles. We’ve also been featured in DoughRoller’s 26 Travel Websites to Use When Booking Your Next Vacation. You can be sure that the car you reserved will be the car you drive at the price you were quoted. <br>
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">    
+                Whether you are looking for a standard economy or compact car rental or something a little bigger like an SUV, full sized van or pickup truck we have plenty of options to choose from. We also have convertible, luxury and premium options if you want a more upscale rental. You can easily compare prices for each car class using our matrix layout on desktop, for mobile be sure to use our filters in the list view in order to pull the best results for your individual needs. <br>
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">    
+                Because of this you are able to find and compare all affordable auto rental prices available, helping you save time and find the cheapest car rental for your business or leisure trip. In order to find great car rental deals when booking make sure you search multiple times as prices tend to change. Also be sure to check individual company terms and conditions when renting. When considering the total cost of your rental be sure to keep in mind the expense of applicable taxes, fees, refueling, late drop-off, drivers under 25, additional driver or one-way charges. <br>
+            </p>
+            <p style="text-align: justify; text-justify: inter-word;">    
+                If you have questions and need to contact the Auto Rentals team please send us an email on our blog, or click on the contact us page under the menu in the right hand corner of the home page.</p>
+            <a href="" class="btn">Read more</a>
+        </div>
+    </div>
+</section>
+<section class="newsletter">
+    <h2>Subscribe To Newsletter</h2>
+    <div class="box">
+        <input type="text"  placeholder="Enter Your EmailAddress Here">
+        <a href="" class="btn">Subscribe</a>
+    </div>
+</section>
+ <!-- Inline Style -->
+ <hr style="margin-top: 5px; background-color: rgb(0, 0, 0); height: 1px; ">
+<div class="copyright">
+    <p>&#169; UFOS All Rights Reserved.</p>
+    <address>
+        Created by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+    </address>
+    <div class="social">
+        <a href=""><i class="bx bxl-facebook"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class="bx bxl-instagram"></i></a>
+        <a href=""><i class="bx bxl-tiktok"></i></a>
+    </div>
+ </div>
+    <!-- link to external javascript -->
+    <script src="../Scripts/scripts.js"></script>
+</body>
+</html>

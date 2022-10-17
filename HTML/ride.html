@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFOS Car Rental Website</title>
+    <!-- link to external css -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/print.css" media="print">
+    <style>
+            
+        .heading{
+            text-align: center;
+            margin-top: 5em;
+        }
+        .heading span{
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .heading h1{
+            font-size: 2em;
+        }
+
+        .ride-container{
+            display: grid;
+            align-items: center;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 2em;
+
+        }
+        .ride-container .box{
+            text-align: center;
+            padding: 20px;
+        }
+        .ride-container .box .bx{
+            font-size: 34px;
+            padding: 10px;
+            background: #eeeff1;
+            border-radius: 0.5em;
+            color: var(--main-color);
+        }
+        .ride-container .box h2{
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 1.4em 0 0.5em;
+
+        }
+        .ride-container .box .bx:hover, .ride-container .bx .bxs.calendar-star{
+            background: var(--gradient);
+            color: #fff;
+        }
+    </style>
+
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="index.html" class="logo"><img src="../images/jeep.png" alt=""></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ride.html">Ride</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+           
+        </ul>
+        <div class="header-btn">
+            <a href="sign-up.html" class="sign-up">Sign-Up</a>
+            <a href="login.html" class="sign-in">Sign-In</a>
+        </div>
+    </header>
+    <!-- Table with best cats to rent -->
+    <h2 style="margin-top:100px; text-align: center; color: #ffac38; font-size: 3em;">Best Rental Cars 2020</h2>
+
+    <table>
+    <tr>
+        <th>Type</th>
+        <th class="image">Image</th>
+        <th>Price/day</th>
+    </tr>
+    <tr>
+        <td>Ford Mustang</td>
+        <td class="image"><img src="../images/ford.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td>Toyota Corolla</td>
+        <td class="image"><img src="../images/corolla.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td>Toyota Sienna</td>
+        <td class="image"><img src="../images/sienna.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td>Chrysler</td>
+        <td class="image"><img src="../images/chrysler.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td>GMC Yukon</td>
+        <td class="image"><img src="../images/yukon.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td>Nissan Rogue</td>
+        <td class="image"><img src="../images/rogue.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td>Hyudai Elantra</td>
+        <td class="image"><img src="../images/elantra.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    <tr>
+        <td>Chevrolet Camaro</td>
+        <td class="image"><img src="../images/camaro.jpg" alt=""></td>
+        <td>$8</td>
+    </tr>
+    </table>
+    <!-- Ride -->
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>How it works</span>
+            <h1>Rent a Car with three easy steps.</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class="bx bxs-map"></i>
+                <h2>Choose Location</h2>
+                <p>In this step the customer is required to select the place they with to be picked.</p>
+            </div>
+            <div class="box">
+                <i class="bx bxs-calendar-check"></i>
+                <h2>Pick-up Date</h2>
+                <p>After choosing the location the customer should provide a pick up date they wish to be picked.</p>
+            </div>
+            <div class="box">
+                <i class="bx bxs-calendar-star"></i>
+                <h2>Choose a Car</h2>
+                <p>There are a wide range of cars the customer can choose from based on their taste and affordability.</p>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <h2>Subscribe To Newsletter</h2>
+        <div class="box">
+            <input type="text"  placeholder="Enter Your EmailAddress Here">
+            <a href="" class="btn">Subscribe</a>
+        </div>
+    </section>
+     <!-- Inline Style -->
+  <hr style="margin-top: 5px; background-color: rgb(0, 0, 0); height: 1px;">
+    <div class="copyright">
+        <p>&#169; UFOS All Rights Reserved.</p>
+        <address>
+            Created by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        </address>
+        <div class="social">
+            <a href=""><i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+            <a href=""><i class="bx bxl-tiktok"></i></a>
+        </div>
+    </div>
+    <!-- link to external javascript -->
+    <script src="../Scripts/scripts.js"></script>
+</body>
+</html>

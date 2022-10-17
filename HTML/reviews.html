@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFOS Car Rental Website</title>
+    <!-- link to external css -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <style>
+        .heading{
+            text-align: center;
+            margin-top: 5em;
+        }
+        .heading span{
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .heading h1{
+            font-size: 2em;
+        }
+        .reviews-container{
+            display: grid;
+            align-items: center;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 2em;
+        }
+        .rev-img{
+            width: 150px;
+            height: 150px;
+        }
+        .rev-img img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            border: 2px solid var(--second-color);
+        }
+        .reviews-container .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 1px 4px 41px rgba(0, 0, 0, .1);
+            border-radius: .5em;
+        }
+        .reviews-container .box h2{
+            font-size: 1.1em;
+            font-weight: 600;
+            margin: 0.5em 0 0.5em;
+        }
+        .reviews-container .box p{
+            font-style: italic;
+        }
+        .reviews-container .box .stars{
+            color: var(--main-color);
+        }
+       
+    </style>
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+      <!-- Navbar -->
+<header>
+    <a href="index.html" class="logo"><img src="../images/jeep.png" alt=""></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ride.html">Ride</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+       
+    </ul>
+    <div class="header-btn">
+        <a href="sign-up.html" class="sign-up">Sign-Up</a>
+        <a href="login.html" class="sign-in">Sign-In</a>
+    </div>
+</header>
+<!-- Reviews -->
+<section class="reviews" id="reviews">
+    <div class="heading">
+        <span>reviews</span>
+        <h1>What Customers Say About Our Services</h1>
+    </div>
+    <div class="reviews-container">
+        <div class="box">
+            <div class="rev-img">
+                <img src="../images/rev1.jpg" alt="">
+            </div>
+            <h2>Larry Hoover</h2>
+            <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit debitis ipsum numquam ipsam rerum mollitia nihil ad error illo, nam consequuntur odio praesentium cumque libero pariatur, fugiat voluptas dicta aut.</p>
+        </div>
+        <div class="box">
+            <div class="rev-img">
+                <img src="../images/rev2.jpg" alt="">
+            </div>
+            <h2>Arsene Jackson</h2>
+            <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit debitis ipsum numquam ipsam rerum mollitia nihil ad error illo, nam consequuntur odio praesentium cumque libero pariatur, fugiat voluptas dicta aut.</p>
+        </div>
+        <div class="box">
+            <div class="rev-img">
+                <img src="../images/rev3.jpg" alt="">
+            </div>
+            <h2>Savannah Daniel</h2>
+            <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit debitis ipsum numquam ipsam rerum mollitia nihil ad error illo, nam consequuntur odio praesentium cumque libero pariatur, fugiat voluptas dicta aut.</p>
+        </div>
+    </div>
+</section>
+<section class="newsletter">
+    <h2>Subscribe To Newsletter</h2>
+    <div class="box">
+        <input type="text"  placeholder="Enter Your EmailAddress Here">
+        <a href="" class="btn">Subscribe</a>
+    </div>
+</section>
+ <!-- Inline Style -->
+ <hr style="margin-top: 5px; background-color: rgb(0, 0, 0); height: 1px;">
+<div class="copyright">
+    <p>&#169; UFOS All Rights Reserved.</p>
+    <address>
+        Created by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+    </address>
+    <div class="social">
+        <a href=""><i class="bx bxl-facebook"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class="bx bxl-instagram"></i></a>
+        <a href=""><i class="bx bxl-tiktok"></i></a>
+    </div>
+</div>
+<!-- link to external javascript -->
+<script src="../Scripts/scripts.js"></script>
+</body>
+</html>
